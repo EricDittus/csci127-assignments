@@ -8,7 +8,7 @@ def fizzbuzz(max_value):
         if (i % 5 ==0):
             if (i % 3 ==0):
                 print ("FizzBuzz")
-                count = count + 1
+                count == count + 1
             else:
                 print ( "Buzz")
         elif (i % 3==0):
