@@ -1,4 +1,17 @@
 import random
+#could not figure it out, but found this online
+#def mysqrt(x):
+#    epsilon = 0.01
+#    left= 0
+#    right = x
+#    guess = (right+left)/2.0
+#    while abs(guess**2 - x) > epsilon:
+#        if guess**2 < x:
+#            left = guess
+#        else:
+#            right = guess
+#        guess = (right+left)/2.0
+#    print (guess)
 def mysqrt(square):
     output=0
     guess=0
