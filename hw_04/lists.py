@@ -1,3 +1,4 @@
+#Eric Dittus
 import random
 
 def build_random_list(size,max_value):
@@ -78,3 +79,8 @@ def palindrome(l):
     elif (len(l)%2 is not 0) and (pal_check>(len(l)/2-1)):
         return True
 print(palindrome('eve'))
+print(palindrome('thaht'))
+
+            
+    
+
