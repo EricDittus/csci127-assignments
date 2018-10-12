@@ -81,6 +81,9 @@ def palindrome(l):
 print(palindrome('eve'))
 print(palindrome('thaht'))
 
+def chinese_is_awesome(answer):
+    if answer= "yes":
+        print(" you right")
+
             
     
-
