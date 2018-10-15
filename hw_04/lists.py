@@ -20,6 +20,15 @@ def build_random_list(size,max_value):
 print(build_random_list(5,100))
 
 def locate(l,value):
+# i=0
+# found_index = -1
+# while i < len(l):
+#   print(value,i,l[i])
+#   if l[i] == value:
+#       found_index = i
+#       break
+#   i += 1
+# return found_index
     if value in l:
         return l.index(value)
     else:
@@ -81,9 +90,6 @@ def palindrome(l):
 print(palindrome('eve'))
 print(palindrome('thaht'))
 
-def chinese_is_awesome(answer):
-    if answer= "yes":
-        print(" you right")
 
             
     
