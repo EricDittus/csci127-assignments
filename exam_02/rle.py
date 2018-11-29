@@ -1,6 +1,6 @@
 def encode(stringy):
     i = 0
-    new_list = {}
+    new_list = []
     while i < len(stringy):
         count=1
         curent_letter = stringy[i]
@@ -8,10 +8,13 @@ def encode(stringy):
         while stringy[i] == stringy[i+1]:
             item=[]
             count += 1
-            i += 1
             item[0]=curent_letter
-            item[1]=count
-            new_list.setdefault(curent_letter, item)
+            item[1]=counts
+            new_list[j] = item
+            j+=1
+            i+=1
+        
+            new_list[j]=item
     return new_list
 print(encode("abbaaacddaaa"))
 print(encode("abcd"))
