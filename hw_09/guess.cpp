@@ -23,14 +23,10 @@ int main(){
 
     if(c = -1){
       max = b;
-      std::cout << max << std::endl;
-      std::cout << min << std::endl;
 
     }
     else{
       min = b;
-      std::cout << max << std::endl;
-      std::cout << min << std::endl;
     }
     b = (max + min)/2;
     std::cout << "Is your number " << b << "?" << std::endl;
