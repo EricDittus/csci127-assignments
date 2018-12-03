@@ -36,4 +36,6 @@ int main(){
     std::cout << "0: You Got It! Wow, that was amazing!" << std::endl;
     std::cin >> c;
   }
+  std::cout << "Congrats to me!" << std::endl;
+  return 0;
 }
