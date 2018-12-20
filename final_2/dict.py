@@ -18,7 +18,10 @@ def addline(d,line):
         i += 1
     return d
 
-print(addline({'a':['okay']},"apples octopus"))
+print(addline({},"somewhere ooover the rainbooow, way up higghhh"))
+print(addline({},"THERE'S A LAND THAT I DREAM OF"))
+print(addline({},"oNcE In A lUlLuBy"))
+
 
 def main():
     d={}

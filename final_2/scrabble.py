@@ -12,6 +12,9 @@ def canMakeWord(letters,word):
         return False
 
 print(canMakeWord("ladilmy","daily"))
+print(canMakeWord("eerriin","eerie"))
+print(canMakeWord("nope","okay"))
+print(canMakeWord("wrong","right"))
 
 def withWild(letters,word):
     count = 0
@@ -22,8 +25,9 @@ def withWild(letters,word):
             letters[letters.find(word[i])]==''
 
         if (word[i] not in letters) and ('?' in letters):
-                count += 1
                 letters[letters.find('?')]==''
+                count += 1
+
         i+=1
 
     if count == len(word):
@@ -32,3 +36,6 @@ def withWild(letters,word):
         return False
 
 print(withWild("?????","daily"))
+print(withWild("?utchg","gotchu"))
+print(withWild("?utch?","gotchu"))
+print(withWild("luck","okay"))
